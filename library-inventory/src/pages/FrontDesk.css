@@ -1,0 +1,89 @@
+/* FrontDesk.css */
+
+/* Wrapper pentru pagina FrontDesk */
+.frontdesk-page {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #FFF6DA, #F4D793);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrat pe orizontală */
+    align-items: center; /* Centrat pe verticală */
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Container pentru tabelele de resurse */
+.tables-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+/* Secțiuni individuale de tabele */
+.table-section {
+    background-color: #FFF6DA;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 48%;
+}
+
+/* Titluri pentru secțiuni */
+.table-section h2 {
+    font-size: 1.8rem;
+    color: #A94A4A;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Stiluri pentru tabele */
+.table-section table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table-section th,
+.table-section td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.table-section th {
+    background-color: #F4D793;
+    color: #333;
+    text-align: center;
+}
+
+.table-section td {
+    background-color: #FFF6DA;
+}
+
+/* Stiluri pentru butoanele din tabele */
+.table-section button {
+    background: #889E73;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.table-section button:hover {
+    background: #6B7C59;
+}
+
+/* Mesaje pentru tabele goale */
+.table-section p {
+    font-size: 1rem;
+    color: #777;
+    text-align: center;
+    margin: 20px 0;
+}

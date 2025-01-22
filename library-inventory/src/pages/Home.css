@@ -1,0 +1,85 @@
+/* Home.css */
+
+.home-page {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #FFF6DA, #F4D793);
+    color: #333;
+    height: 100vh; /* Asigurăm că pagina are înălțimea completă */
+    display: flex;
+    flex-direction: column;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: row; /* Aliniere pe orizontală */
+    justify-content: space-between; /* Spațiu între secțiuni */
+    align-items: center; /* Centrarea pe verticală */
+    width: 90%;
+    height: 100%; /* Asigurăm că containerul ocupă toată înălțimea */
+    padding: 20px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrarea pe verticală a textului */
+    align-items: flex-start; /* Alinierea textului la stânga */
+    width: 50%; /* Ocupă jumătate din pagină */
+    padding-left: 250px;
+}
+
+.left-side h1, .left-side h3 {
+    text-align: left;
+}
+
+.wallet-info {
+    background: #FFF6DA;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.wallet-info p {
+    margin: 10px 0;
+}
+
+button {
+    background: #889E73;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #6B7C59;
+}
+
+.no-account {
+    font-size: 25px;
+    color: #777;
+    margin-top: 20px;
+}
+
+/* Secțiunea din dreapta (imaginea) */
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; /* Ocupă jumătate din pagină */
+    padding-right: 150px;
+}
+
+.right-side img {
+    width: 100%; /* Setăm imaginea să ocupe 80% din lățimea containerului */
+    height: auto; /* Menținem raportul de aspect al imaginii */
+    border-radius: 10px; /* Marginile imaginii rotunjite */
+}

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { BrowserProvider, Contract } from "ethers";
 
 const WalletConnection = ({ setAccount, setContract, setProvider }) => {
-    const contractAddress = "0x8B139aA8Da7316fBE7e91f29Ae055552bad5Edc7";
+    const contractAddress = "0xE3406dA00D4097ACDC3c2B8EBa9d2848bd60aE8C";
     const contractABI = require("../contractABI.json");
 
     // This function is called once the component mounts to connect to MetaMask
@@ -36,7 +36,7 @@ const WalletConnection = ({ setAccount, setContract, setProvider }) => {
 
     return (
         <div>
-
+            {/* Optionally, add a loader or message here */}
         </div>
     );
 };

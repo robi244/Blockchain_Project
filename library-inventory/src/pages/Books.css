@@ -1,0 +1,165 @@
+/* Books.css */
+
+/* Wrapper pentru pagina Books */
+.books-page {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #FFF6DA, #F4D793);
+    color: #333;
+    display: flex;
+    justify-content: center; /* Centrat pe orizontală */
+    align-items: center; /* Centrat pe verticală */
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Container pentru toată componenta Books */
+.books-container {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column; /* Împărțim elementele pe verticală */
+    align-items: center; /* Centrat pe orizontală */
+    text-align: center; /* Centrat textul */
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Stiluri pentru titlu */
+.books-page h1 {
+    font-size: 2.5rem;
+    color: #A94A4A;
+    margin-bottom: 20px;
+}
+
+/* Stiluri pentru subtitlu */
+.books-page h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Stiluri pentru subsubtitlu (Add Resource) */
+.books-page h2 {
+    font-size: 1.5rem;
+    color: #A94A4A;
+    margin-top: 30px;
+}
+
+/* Stiluri pentru buton */
+.books-page button {
+    background: #889E73;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 15px;
+}
+
+.books-page button:hover {
+    background: #6B7C59;
+}
+
+/* Stiluri pentru formularul de adăugare resursă */
+.books-page form {
+    display: flex;
+    flex-direction: column; /* Elemente pe verticală */
+    align-items: center; /* Centrat pe orizontală */
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+/* Stiluri pentru inputurile formularului */
+.books-page form input {
+    margin-bottom: 8px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    color: #333;
+    background: #FFF6DA;
+}
+
+.books-page form input:focus {
+    border-color: #A94A4A;
+    outline: none;
+}
+
+/* Stiluri pentru lista de resurse */
+.books-page ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/*.books-page ul li {*/
+/*    background-color: #FFF6DA;*/
+/*    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);*/
+/*    border-radius: 10px;*/
+/*    padding: 15px;*/
+/*    margin-bottom: 10px;*/
+/*    font-size: 1rem;*/
+/*    display: flex;*/
+/*    justify-content: space-evenly;*/
+/*    align-items: center;*/
+/*    height: 20px;*/
+/*    width: 700px;*/
+/*}*/
+
+.books-page ul li strong {
+    color: #A94A4A;
+}
+
+.books-page ul li span {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.books-page ul li.available {
+    color: #889E73;
+}
+
+.books-page ul li.borrowed {
+    color: #A94A4A;
+}
+
+.books-page ul li {
+    background-color: #FFF6DA;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;  /* Distribute space evenly between text and button */
+    align-items: center;  /* Vertically align text and button */
+    height: 30px;  /* Adjusted height for better vertical alignment */
+    width: 700px;
+    margin-left: auto;
+}
+
+.remove-btn {
+    width: 100px;
+    height: 35px;  /* Adjust button height */
+    text-align: center;
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
+    border: none;  /* Remove default border */
+    background-color: #FF6F61;  /* Modern, eye-catching color */
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;  /* Slight rounding for modern look */
+    cursor: pointer;
+    transition: background-color 0.3s ease;  /* Smooth hover effect */
+    margin-top: 0px!important;
+}
+
+.remove-btn:hover {
+    background-color: #FF3D2D;  /* Darker shade on hover */
+}
